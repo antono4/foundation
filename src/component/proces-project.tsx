@@ -1,13 +1,14 @@
 import 'react-vertical-timeline-component/style.min.css'
 
+import { Box } from '@chakra-ui/react'
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component'
 
 const ProcesProject = () => (
-  <>
-    <VerticalTimeline>
+  <Box px={{ base: 10, md: 20 }}>
+    <VerticalTimeline animate={false}>
       <VerticalTimelineElement
         className='vertical-timeline-element--work'
         contentStyle={{ background: '#23928B', color: '#fff' }}
@@ -57,7 +58,7 @@ const ProcesProject = () => (
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline>
-  </>
+  </Box>
 )
 
 export default ProcesProject

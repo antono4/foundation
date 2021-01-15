@@ -4,7 +4,7 @@ import NextImage from 'next/image'
 const Portofolio = () => {
   return (
     <Box mt={-4} px={{ base: 10, md: 20 }}>
-      <SimpleGrid columns={4} spacing={8}>
+      <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} spacing={8}>
         <CardPortofolio image='/portofolio-1.png' category='House' />
         <CardPortofolio image='/portofolio-2.png' category='Apartement' />
         <CardPortofolio image='/portofolio-3.png' category='Mansion' />

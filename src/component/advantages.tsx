@@ -41,7 +41,8 @@ const Advantages = () => {
   return (
     <SimpleGrid
       alignItems='center'
-      columns={4}
+      justifyItems='center'
+      columns={{ base: 1, md: 2, lg: 4 }}
       px={{ base: 10, md: 20 }}
       pb={20}
       spacing={8}

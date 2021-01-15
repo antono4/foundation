@@ -14,7 +14,14 @@ import siteConfig from '~/site-config'
 
 const Content = () => {
   return (
-    <Stack px={20} align='start' spacing={6} maxW='xl'>
+    <Stack
+      mt={{ base: 20, md: 0 }}
+      mb={{ base: 40, md: 0 }}
+      px={{ base: 10, md: 20 }}
+      align='start'
+      spacing={6}
+      maxW={{ base: 'auto', md: 'xl' }}
+    >
       <Heading>Easy Ways to Get Up Your Home</Heading>
       <Text>{siteConfig.description}</Text>
       <Stack direction='row' spacing={8}>
@@ -46,7 +53,7 @@ const Content = () => {
           <Text color='gray.400'>Transactions</Text>
         </Box>
       </Stack>
-      <FormControl id='location' maxW='sm'>
+      <FormControl id='location' maxW='lg'>
         <FormLabel color='gray.400'>Location</FormLabel>
         <Input
           type='text'

@@ -1,4 +1,4 @@
-import { Button, Flex, HStack, Image, Link, Text } from '@chakra-ui/react'
+import { Box, Button, Flex, HStack, Image, Link, Text } from '@chakra-ui/react'
 import NextLink from 'next/link'
 
 import routes from '@/routes'
@@ -34,14 +34,14 @@ const Navbar = () => {
           </Text>
         </Flex>
         {routes.map(([text, href]) => (
-          <div key={href}>
+          <Box d={{ base: 'none', md: 'block' }} key={href}>
             <NextLink href={href} key={href}>
               <Link href={href}>{text}</Link>
             </NextLink>
-          </div>
+          </Box>
         ))}
       </HStack>
-      <Button px={6} py={6} colorScheme='green'>
+      <Button size='lg' colorScheme='green'>
         Contact Us
       </Button>
     </Flex>

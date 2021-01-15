@@ -2,7 +2,7 @@ import { Box, Icon, IconButton, Image, Text } from '@chakra-ui/react'
 import { FaPlay } from 'react-icons/fa'
 
 const VideoPlayer = () => (
-  <Box py={8} maxW='6xl' mx='auto'>
+  <Box d={{ base: 'none', md: 'block' }} py={8} maxW='6xl' mx='auto'>
     <Box
       pos='absolute'
       px={6}

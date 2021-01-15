@@ -2,7 +2,12 @@ import { Box, Button, Flex, Image, SimpleGrid, Text } from '@chakra-ui/react'
 
 const Service = () => {
   return (
-    <SimpleGrid px={{ base: 10, md: 20 }} columns={3} pb={16} spacing={10}>
+    <SimpleGrid
+      px={{ base: 10, md: 20 }}
+      columns={{ base: 1, md: 2, lg: 3 }}
+      pb={16}
+      spacing={10}
+    >
       <Flex
         border='1px'
         borderColor='#DDDD'

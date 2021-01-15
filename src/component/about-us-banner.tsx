@@ -3,7 +3,7 @@ import { Box, Flex, Image, Text } from '@chakra-ui/react'
 import Inspiration from './inspiration'
 
 const AboutUsBanner = () => (
-  <Box>
+  <Box d={{ base: 'none', lg: 'block' }}>
     <Inspiration />
     <Flex
       pos='relative'

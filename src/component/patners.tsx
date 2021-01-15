@@ -8,7 +8,7 @@ const Patners = () => {
       spacing={8}
       px={{ base: 10, md: 20 }}
       pb={10}
-      columns={4}
+      columns={{ base: 1, md: 4 }}
     >
       <Image src='/sponsor-1.png' h='37px' objectFit='cover' />
       <Image src='/sponsor-2.png' h='37px' objectFit='cover' />

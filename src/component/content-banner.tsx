@@ -1,7 +1,7 @@
 import { Box, Image } from '@chakra-ui/react'
 
 const ContentBanner = () => (
-  <Box>
+  <Box d={{ base: 'none', lg: 'block' }}>
     <Image
       w='343px'
       h='240px'
