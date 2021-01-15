@@ -18,7 +18,9 @@
     "next-seo": "^4.17.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-icons": "^4.1.0"
+    "react-icons": "^4.1.0",
+    "react-vertical-timeline-component": "^3.3.1",
+    "swiper": "^6.4.5"
   },
   "devDependencies": {
     "@types/node": "^14.14.19",

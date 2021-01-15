@@ -1,9 +1,8 @@
-import { Flex, HStack, Link, Text } from '@chakra-ui/react'
+import { Button, Flex, HStack, Image, Link, Text } from '@chakra-ui/react'
 import NextLink from 'next/link'
 
 import routes from '@/routes'
-
-import ToggleColorMode from './toggle-color-mode'
+import siteConfig from '~/site-config'
 
 const Navbar = () => {
   return (
@@ -16,11 +15,24 @@ const Navbar = () => {
       py={8}
       align='center'
       justify='space-between'
+      background='white'
+      zIndex={99}
     >
       <HStack spacing={6} justify='center'>
-        <Text fontSize='xl' fontWeight='bold'>
-          Sakura
-        </Text>
+        <Flex align='center' mr={4}>
+          <Image
+            w='50px'
+            h='40px'
+            objectFit='cover'
+            htmlHeight='40px'
+            htmlWidth='50px'
+            src='/logo.png'
+            mr={4}
+          />
+          <Text fontSize='xl' fontWeight='bold'>
+            {siteConfig.title}
+          </Text>
+        </Flex>
         {routes.map(([text, href]) => (
           <div key={href}>
             <NextLink href={href} key={href}>
@@ -29,12 +41,9 @@ const Navbar = () => {
           </div>
         ))}
       </HStack>
-      <HStack spacing={6}>
-        <NextLink href='/login'>
-          <Link>Login</Link>
-        </NextLink>
-        <ToggleColorMode />
-      </HStack>
+      <Button px={6} py={6} colorScheme='green'>
+        Contact Us
+      </Button>
     </Flex>
   )
 }

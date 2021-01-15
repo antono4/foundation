@@ -5,9 +5,15 @@ export default class Document extends NextDocument {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <link
+            href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap'
+            rel='stylesheet'
+          />
+        </Head>
+
         <body>
-          <ColorModeScript initialColorMode='system' />
+          <ColorModeScript initialColorMode='light' />
           <Main />
           <NextScript />
         </body>

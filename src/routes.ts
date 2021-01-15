@@ -1,7 +1,9 @@
 const routes = [
   ['Home', '/'],
-  ['About', '/about'],
-  ['Usage', '/usage'],
+  ['Service', '/#'],
+  ['Featured', '/#'],
+  ['Testimonials', '/#'],
+  ['About Us', '/#'],
 ]
 
 export default routes
