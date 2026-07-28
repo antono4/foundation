@@ -1,16 +1,44 @@
-## Sakura
+# Sakura
 
-> **Created by Antono**
+> **Created by Antono** | 🇮🇩 Indonesia
 
+A creative project featuring Japanese-inspired design and themes.
 
-capek kalau harus bikin project setup lagi
+## 🌸 About
 
-### Eslint Plugins
+Sakura is a project inspired by Japanese aesthetics, featuring cherry blossom themes and elegant design elements.
 
-- simple-import-sort
+## ✨ Features
 
-### Package
+- 🌸 Cherry blossom theme
+- 🎨 Elegant Japanese-inspired design
+- 📱 Responsive layout
+- ⚡ Fast performance
 
-- Chakra UI v1++
-- React Icons
-- Framer Motion
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/antono4/foundation.git
+
+# Navigate to the project
+cd foundation
+```
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+## 📝 License
+
+MIT License
+
+---
+
+**⭐ From Indonesia 🇮🇩**
