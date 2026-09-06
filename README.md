@@ -1,2 +1,32 @@
-Last updated: 2026-09-06 07:29:16 WIB
-Last updated: 2026-09-06 08:16:57 WIB
+# Sakura
+
+starter project nextjs, chakra ui, typescript
+
+## 📋 Overview
+
+This repository contains **73 files** and is built with the following technologies:
+
+Node.js, JavaScript
+
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+## ✨ Features
+
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+Node.js, JavaScript
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-09-06 11:22:06 WIB*
