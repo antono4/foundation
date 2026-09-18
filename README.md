@@ -1,109 +1,65 @@
-<!-- README ini dihasilkan otomatis oleh .github/workflows/generate-readme.yml -->
-<!-- Jangan edit manual: perubahan akan ditimpa pada run berikutnya. -->
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-<h1 align="center">foundation 👋</h1>
+<h1 align="center">Project 👋</h1>
 
 <p align="center">
-  <em>Landing Page</em>
+  <strong></strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/antono4/foundation"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/foundation-blue?logo=github"></a>
-  <img alt="Files" src="https://img.shields.io/badge/Files-68-informational">
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/antono4/foundation">
+  <a href="https://antono4.github.io/foundation/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-71-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-18 08:10:34 WIB-lightgrey">
 </p>
 
 ---
 
 ## 📖 Tentang
 
-Repository **`foundation`** adalah proyek Node.js yang dibangun dengan JavaScript, React.
-GitHub Pages belum diaktifkan untuk repository ini.
+Repository **`foundation`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/foundation/`](https://antono4.github.io/foundation/).
 
 ## 🗂️ Struktur Proyek
 
 ```
 foundation/
-.eslintrc.js
-.github/
-  workflows/
-.gitignore
-LICENSE
-next-env.d.ts
-next-seo.config.ts
-package-lock.json
-package.json
-public/
-  ava-1.png
-  ava.png
-  card-1.png
-  card-2.png
-  card-3.png
-  card-4.png
-  dots.png
-  dropdop.png
-  hero-2.png
-  inspiration.png
-  logo.png
-  mail.png
-  master-card.png
-  paypal.png
-  portofolio-1.png
-  portofolio-2.png
-  portofolio-3.png
-  portofolio-4.png
-  portofolio-5.png
-  portofolio-6.png
-  portofolio-7.png
-  portofolio-8.png
-  service-2.png
-  service-3.png
-  service-4.png
-  service.png
-  sponsor-1.png
-  sponsor-2.png
-  sponsor-3.png
-  sponsor-4.png
-  sponsor-5.png
-  sponsor-6.png
-  sponsor-7.png
-  visa.png
-site-config.ts
-src/
-  component/
-  pages/
-  routes.ts
-  theme.tsx
-tsconfig.json
-yarn.lock
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
 ```
 
 ## 🛠️ Teknologi
 
-Berdasarkan ekstensi berkas yang terdeteksi di repository:
+Berdasarkan isi repository, proyek ini menggunakan:
 
 - `JavaScript`
 - `React`
 
-> Total **68 berkas** di repository (di luar `.git`, `node_modules`, `dist`, dan `build`).
+> Total **71 file** terdeteksi di repository.
 
 ## 🚀 Menjalankan Secara Lokal
 
-Butuh Node.js:
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
 
 ```bash
-npm install
-npm run dev
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
 ```
 
 ## 📬 Kontak
 
 - GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/foundation/](https://antono4.github.io/foundation/)
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah MIT License — lihat berkas [`LICENSE`](./LICENSE).
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
 
-<sub>README ini di-generate otomatis oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
+<sub>README ini di-generate otomatis pada **2026-09-18 08:10:34 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
